@@ -23,10 +23,10 @@ const unsplash = createApi({
 
 const jwtCheck = auth({
 	audience: process.env.AUTH0_AUDIENCE,
-	issuerBaseURL: process.env.AUTH0_ISSUER_BASE_URL,
+	issuerBaseURL: process.env.AUTH0_ISSUER_BASE_URL
 });
 
-const checkScopes = requiredScopes(["profile"])
+const checkScopes = requiredScopes(["read:images"])
 
 // Get images from Unsplash
 app.get("/images/:imageId", jwtCheck, checkScopes, async (req, res) => {
