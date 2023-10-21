@@ -2,10 +2,12 @@ import { useUser } from "@auth0/nextjs-auth0/client";
 
 const Avatar = () => {
 	const { user } = useUser();
+
 	if (user) {
 		const name = user.name || user.nickname || user.email;
 		const picture =
 			user.picture || `https://ui-avatars.com/api/?name=${name}`;
+
 		return (
 			<div className="flex items-center mx-2">
 				<img
@@ -16,14 +18,17 @@ const Avatar = () => {
 				<p className="ml-2 text-lg font-medium text-slate-800 dark:text-slate-200">
 					{name}
 				</p>
-					<a className="ml-2 text-lg font-medium text-slate-800 dark:text-slate-200 hover:text-slate-500" href="http://localhost:3000/api/auth/logout">
-						Logout
-					</a>
+
+				<a
+					className="ml-2 text-lg font-medium text-slate-800 dark:text-slate-200 hover:text-slate-500"
+					href="http://localhost:3000/api/auth/logout">
+					Logout
+				</a>
 			</div>
 		);
-	} else {
-		return null;
 	}
+
+	return null;
 };
 
 export default Avatar;

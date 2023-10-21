@@ -12,14 +12,15 @@
     "seed": "node scripts/firebase/seed.js"
   },
   "dependencies": {
-    "@auth0/nextjs-auth0": "^3.2.0",
+    "@auth0/nextjs-auth0": "^2.2.1",
     "@next/font": "13.1.6",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
     "express": "^4.18.2",
-    "express-oauth2-jwt-bearer": "^1.6.0",
+    "express-oauth2-jwt-bearer": "^1.3.0",
     "firebase": "9.16.0",
     "firebase-admin": "^11.5.0",
+    "jsonwebtoken": "^9.0.0",
     "next": "13.1.6",
     "node-fetch": "2.6.9",
     "react": "18.2.0",
