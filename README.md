@@ -1,7 +1,7 @@
-# Curso Prático de Auth0
-Este curso puede tomarse en [https://platzi.com](https://platzi.com/guillermorodas)
+# Curso Práctico de Auth0
+Este repositorio curso es un fork de: [Curso de Auth0: Implementación de Autenticación y Seguridad Web by Guillermo Rodas](https://github.com/glrodasz/platzi-practico-auth0)
 
-## Modulos
+## Módulos
 1. Introducción a Auth0
 2. Conexiones sociales
 3. Conexiones sin password
@@ -14,13 +14,10 @@ Este curso puede tomarse en [https://platzi.com](https://platzi.com/guillermorod
 
 ## Requerimientos
 * JavaScript básico
-* Backedn básico
-
-## Slides
-https://glrz.me/slides-auth0
+* Backend básico
 
 ## Branches
-Las ramas están ordenadas tal y cómo van aparenciendo el curso.
+Las ramas están ordenadas tal y cómo van apareciendo el curso.
 * [Autenticación rápida con el SDK de Next.js](https://github.com/glrodasz/platzi-practico-auth0/tree/develop/packages/favlr)
 * [¿Cómo hacer un login con GitHub?](https://github.com/glrodasz/platzi-practico-auth0/tree/como-hacer-un-login-con-github)
 * [¿Cómo hacer un login custom con Discord?](https://github.com/glrodasz/platzi-practico-auth0/tree/como-hacer-un-login-custom-con-discord)
